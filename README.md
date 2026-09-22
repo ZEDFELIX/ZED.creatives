@@ -1,7 +1,16 @@
 # ZED Gift Shop
 
-Premium Kenyan gifting storefront for ZED GIFT SHOP — GIFTS THAT SAY MORE.
+**GIFTS THAT SAY MORE.** Premium Kenyan gifting platform foundation.
 
-This build includes the premium responsive storefront, ZED visual system, glass UI, gift finder, product filtering, local cart, PWA manifest, service worker and install prompt.
+This upgrade moves the storefront to Next.js + React + TypeScript + Tailwind, adds the ZED visual system, responsive Apple-inspired curves, restrained glassmorphism, installable PWA architecture, product filtering, gift finder UX, cart state and a Prisma/PostgreSQL domain model.
 
-Production infrastructure still needs server-side PostgreSQL/Prisma, authentication, real M-PESA STK Push credentials and callbacks, persistent orders/inventory, customer accounts and admin operations. No fake payment success is implemented.
+Production integrations intentionally do not fake success: PostgreSQL, secure authentication, real M-PESA STK Push credentials/callbacks, persistent orders/inventory, customer accounts, personalization uploads and admin operations must be connected with deployment secrets before live checkout.
+
+## Contact
++254 711 436 169 · felixsimon877@gmail.com
+
+## Run
+npm install
+npm run dev
+npm run typecheck
+npm run build
