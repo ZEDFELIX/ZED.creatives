@@ -1,16 +1,15 @@
-# ZED Gift Shop
+# Legacy ZED Gift Shop Copy
 
-**GIFTS THAT SAY MORE.** Premium Kenyan gifting platform foundation.
+This repository is retained as a historical/legacy ZED Gift Shop implementation.
 
-This upgrade moves the storefront to Next.js + React + TypeScript + Tailwind, adds the ZED visual system, responsive Apple-inspired curves, restrained glassmorphism, installable PWA architecture, product filtering, gift finder UX, cart state and a Prisma/PostgreSQL domain model.
+**Canonical Gift Shop repository:** [ZEDFELIX/zed-gift-shop](https://github.com/ZEDFELIX/zed-gift-shop)
 
-Production integrations intentionally do not fake success: PostgreSQL, secure authentication, real M-PESA STK Push credentials/callbacks, persistent orders/inventory, customer accounts, personalization uploads and admin operations must be connected with deployment secrets before live checkout.
+Do not split new Gift Shop development between this repository and the canonical repository.
 
-## Contact
-+254 711 436 169 · felixsimon877@gmail.com
+## Legacy stack
 
-## Run
-npm install
-npm run dev
-npm run typecheck
-npm run build
+This copy uses Next.js + React + TypeScript + Tailwind with Prisma/PostgreSQL-oriented architecture and PWA support.
+
+Production integrations must never fake success: database, authentication, M-PESA credentials/callbacks, persistent orders, inventory and uploads require real deployment configuration.
+
+For all new Gift Shop development, use `ZEDFELIX/zed-gift-shop`.
